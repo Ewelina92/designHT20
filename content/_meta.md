@@ -1,8 +1,12 @@
 ---
-Logo: assets/img/leaf_256x256.png
-Tagline: My portfolio.
+Logo: assets/img/logodesign.png
+Tagline: My portfolio for the design course at BTH.
 Social:
-    - title: Link till sidans github repo.
-      url: https://github.com/dbwebb-se/design-v3
+    - title: Link to my github repo.
+      url: https://github.com/Ewelina92/designHT20
       icon: github
+    - title: Link to dbwebb.
+      url: https://dbwebb.se/kurser/design-v3
+      icon: leaf
 ---
+
