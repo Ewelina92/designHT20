@@ -1,13 +1,12 @@
 ---
 Title: Home
-Description: This is our index page.
+Description: This is my index page.
 ---
 
 Home page
 ==========================
 
-The source for this page is in `content/index.md`.
+Welcome to my page, my name is Ewelina, I'm 28 years old and I've been working as nurse for a couple of years. Lately I've gotten introduced to web programming and web development, and found it so interesting I decided to split my time between my nursing-job and these full-time studies at BTH. The picture below is supposed to represent me, a pinkloving figure with lots of things happening.
 
-This is a sample home page written in markdown with some frontmatter defined.
+![representing me](%assets_url%/img/pink-unsplash.jpg){.representing-me}
 
-The pages make up a Anax site for demonstration purpose, it is something to start from.
