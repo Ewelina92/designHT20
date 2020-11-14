@@ -36,7 +36,9 @@
                 {% for page in pages(depthOffset=-1) if page.title and not page.hidden %}
                     <li{% if page.id == current_page.id %} class="active"{% endif %}>
                         <a href="{{ page.url }}">
-                            {% if page.meta.icon %}
+                            {% if page.meta.unicode %}
+                                &#{{ page.meta.unicode }};
+                            {% elseif page.meta.icon %}
                                 <i class="{{ page.meta.icon }}"></i>
                             {% endif %}
                             {{ page.title }}

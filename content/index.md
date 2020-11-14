@@ -2,6 +2,8 @@
 Title: Home
 Description: This is my index page.
 icon: fas fa-home
+unicode: 127968
+
 ---
 
 Home page

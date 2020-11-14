@@ -2,6 +2,7 @@
 Title: About
 Description: Here is information regarding this page.
 icon: fas fa-info
+unicode: 8505
 ---
 
 About
