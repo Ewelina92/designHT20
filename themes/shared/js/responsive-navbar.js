@@ -56,12 +56,12 @@ function main()
         },
         onResizeEvent = function () {
             if (utils.isElementVisible(menuToggle)) {
-                menu.className = 'hidden';
+                menu.className = 'nav hidden';
                 navIcon.className = 'fa fa-bars';
                 menuToggle.addEventListener('click', toggleMenuEvent);
                 menuToggle.addEventListener('keydown', toggleMenuEvent);
             } else {
-                menu.className = '';
+                menu.className = 'nav';
                 navIcon.className = 'fa fa-times';
                 menu.removeAttribute('data-slide-id');
                 menuToggle.removeEventListener('click', toggleMenuEvent);

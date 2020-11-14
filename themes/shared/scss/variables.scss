@@ -1,0 +1,14 @@
+/* Coloring of the page */
+$html-color: #efefef;
+
+/* Typography variables */
+
+$font-size: 1.2em;
+$line: 1.5;
+$magic-number: $font-size * $line;
+
+/* Alert box - not used in myTheme */
+
+$base-color: #c6538c; // light pink
+$border-dark: rgba($base-color, 0.88) !default;
+$alert-box-size: 70% !default;

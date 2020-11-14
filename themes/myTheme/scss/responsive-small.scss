@@ -1,0 +1,50 @@
+/* Small devices - overwrites nav.scss */
+
+@media (max-width: 767px) {
+    .nav {
+        clear: both;
+        padding: 0;
+
+        ul {
+            padding-bottom: 1em;
+
+            li {
+                display: block;
+                margin-left: 0;
+                text-align: center;
+
+                a {
+                    display: block;
+                    padding: 0.5em 0;
+                }
+            }
+        }
+    }
+
+    .js .nav-toggle {
+        display: block;
+        float: right;
+        width: 2em;
+        margin: 0.6667em 0;
+        font-size: 1.5rem;
+        line-height: 2em;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .js .nav-toggle>* {
+        vertical-align: middle;
+    }
+}
+
+/* Small devices */
+
+@media (max-width: 767px) {
+    body {
+        width: 100%;
+    }
+
+    img {
+        width: 100%;
+    }
+}

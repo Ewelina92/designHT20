@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Typography and basic layout */
+
+html {
+    font-size: 100%;
+    overflow-y: scroll;
+}
+
+body {
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    font-size: $font-size;
+    line-height: $line;
+    margin-bottom: $magic-number;
+    letter-spacing: 0.01em;
+}
+
+/* Header */
+
+.title {
+    float: left;
+    padding: 0;
+}
+
+.site-header {
+    flex: 0 0 auto;
+    padding: 0 2em;
+}
+
+.flash-img {
+    width: 100%;
+    margin-bottom: 0.5em;
+
+}
+
+/* Main */
+
+.main {
+    flex: 1 0 auto;
+    padding: 2em;
+}
+
+img {
+    width: 30%;
+    margin-top: 1em;
+}
+
+ul {
+    margin-left: 1.2em;
+    padding: 0;
+
+    li {
+        margin-bottom: 1em;
+    }
+}
+
+/* Footer */
+
+.site-footer {
+    flex: 0 0 auto;
+    padding: 1em;
+    text-align: center;
+
+    p {
+        margin-bottom: 1em;
+    }
+
+    a {
+        text-decoration: none;
+        padding: 0 0.25em;
+    }
+}
+
+/* Alert note */
+
+.auto {
+    margin: auto;
+    text-align: center;
+}
+
+.alert {
+    background-color: $base-color;
+    border: 1px solid $border-dark;
+    height: $alert-box-size/2;
+    width: $alert-box-size;
+}

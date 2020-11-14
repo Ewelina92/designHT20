@@ -1,0 +1,83 @@
+@import '../../node_modules/normalize.css/normalize';
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap');
+
+// own imports, my own files
+@import '../../shared/scss/base';
+@import 'nav';
+@import 'responsive-small';
+
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    background-color: $html-color;
+    color: #000;
+}
+
+body {
+    background-color: #fff;
+
+    a {
+        text-decoration: underline;
+        color: #000;
+    }
+}
+
+/* Header */
+
+.site-header {
+    background-color: #fff;
+
+    a,
+    a:visited {
+        color: #2b2e30;
+    }
+
+    a:hover {
+        background-color: #f77ea8;
+    }
+}
+
+/* Main */
+
+ul {
+    a:hover {
+        background-color: #fab83e;
+    }
+
+    a:visited {
+        color: #000;
+    }
+}
+
+/* Footer */
+
+.site-footer {
+    background: #323232;
+    color: #fff;
+
+    a {
+        color: #fff;
+    }
+
+    a:hover {
+        background-color: #323232;
+        color: #0f0;
+    }
+}
