@@ -6520,7 +6520,7 @@ p {
 /* Main */
 .main {
   flex: 1 0 auto;
-  padding: 2em;
+  padding: 0 2em 2em;
 }
 
 img {
@@ -6552,7 +6552,7 @@ ul li {
   padding: 0 0.25em;
 }
 
-/* Alert note */
+/* Alert note - not for myTheme*/
 .auto {
   margin: auto;
   text-align: center;
@@ -6586,7 +6586,7 @@ ul li {
 }
 
 .nav {
-  padding: 3em 0;
+  padding: 2em 0 1em;
   text-align: right;
 }
 .nav ul {
@@ -6611,6 +6611,69 @@ ul li {
   display: none;
 }
 
+.landingpage {
+  display: grid;
+  gap: 1em 1em;
+  padding: 0 1em;
+}
+
+.landingpage h1 {
+  justify-self: self-start;
+  grid-column: span 3;
+}
+
+.kmom-box {
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  grid-column: span 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.kmom-box h2 {
+  background-color: #f79963;
+  padding: 1em;
+}
+
+.kmom-box p {
+  padding: 1em;
+}
+
+.kmom-box.project {
+  grid-column: span 3;
+}
+
+/* Css for the kmom-pages */
+.kmoms {
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar-links {
+  display: flex;
+  flex-direction: column;
+  padding: 3em 2em 0 1em;
+}
+.sidebar-links a {
+  padding-bottom: 1em;
+}
+
+.kmom-text h1 {
+  display: inline-block;
+  border-bottom: 8px solid #f79963;
+}
+
+/* Responsivness*/
+@media (max-width: 767px) {
+  .landingpage h1,
+.kmom-box,
+.kmom-box.project {
+    grid-column: span 1;
+  }
+
+  .sidebar-links {
+    display: none;
+  }
+}
 /* Small devices - overwrites nav.scss */
 @media (max-width: 767px) {
   .nav {
@@ -6690,15 +6753,13 @@ body a {
   color: #2b2e30;
 }
 .site-header a:hover {
-  background-color: #f77ea8;
+  background-color: #f79963;
 }
 
 /* Main */
-ul a:hover {
-  background-color: #fab83e;
-}
-ul a:visited {
-  color: #000;
+.main h1 {
+  display: inline-block;
+  border-bottom: 8px solid #f79963;
 }
 
 /* Footer */
@@ -6711,5 +6772,5 @@ ul a:visited {
 }
 .site-footer a:hover {
   background-color: #323232;
-  color: #0f0;
+  color: #f79963;
 }

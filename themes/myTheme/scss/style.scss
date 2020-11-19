@@ -30,6 +30,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 // own imports, my own files
 @import '../../shared/scss/base';
 @import 'nav';
+@import 'report';
 @import 'responsive-small';
 
 * {
@@ -70,19 +71,16 @@ body {
     }
 
     a:hover {
-        background-color: #f77ea8;
+        background-color: rgb(247, 153, 99);
     }
 }
 
 /* Main */
 
-ul {
-    a:hover {
-        background-color: #fab83e;
-    }
-
-    a:visited {
-        color: #000;
+.main {
+    h1 {
+        display: inline-block;
+        border-bottom: 8px solid rgb(247, 153, 99);
     }
 }
 
@@ -98,6 +96,6 @@ ul {
 
     a:hover {
         background-color: #323232;
-        color: #0f0;
+        color: rgb(247, 153, 99);
     }
 }

@@ -1,6 +1,7 @@
 ---
 Title: Kmom01
 Description: My report for Kmom01.
+Template: kmom
 ---
 
 Kmom01

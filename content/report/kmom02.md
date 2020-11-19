@@ -1,6 +1,7 @@
 ---
 Title: Kmom02
 Description: My report for Kmom02.
+Template: kmom
 ---
 
 Kmom02
