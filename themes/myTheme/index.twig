@@ -17,7 +17,13 @@
         <link rel="canonical" href="{{ current_page.url }}" />
     {% endif %}
 
+    <!-- <link rel="stylesheet" href="{{ theme_url }}/css/style.css" type="text/css" /> -->
+   {% if config.session.theme == "dark" %}
+    <link rel="stylesheet" href="{{ theme_url }}/css/style-dark.css" type="text/css" />
+    {% else %}
     <link rel="stylesheet" href="{{ theme_url }}/css/style.css" type="text/css" />
+    {% endif %}
+
 
 </head>
 <!-- "Widescreen-mode" can be activated in portfolio/config/config.yml -->
@@ -50,6 +56,7 @@
     </header>
 
     <div class="main" role="main">
+        <!--{{ dump(config.session) }}-->
         <div class="container">
             {{ content }}
         </div>

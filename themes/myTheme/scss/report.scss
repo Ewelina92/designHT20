@@ -2,6 +2,7 @@
     display: grid;
     gap: 1em 1em;
     padding: 0 1em;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .landingpage h1 {
@@ -10,14 +11,19 @@
 }
 
 .kmom-box {
-    border: 2px solid rgba(0, 0, 0, 0.3);
+    border: 2px solid $accent-color;
     grid-column: span 1;
     display: flex;
     flex-direction: column;
+    
+    a {
+        color: $box-link;
+    }
 }
 
 .kmom-box h2 {
-    background-color: rgb(247, 153, 99);
+    background-color: $accent-color;
+    color: $box-link;
     padding: 1em;
 }
 
@@ -42,21 +48,26 @@
     padding: 3em 2em 0 1em;
 
     a {
-        padding-bottom: 1em;
+        margin-bottom: 1.3em;
+        white-space: nowrap;
     }
 }
 
 .kmom-text {
     h1 {
         display: inline-block;
-        border-bottom: 8px solid rgb(247, 153, 99);
-    }
+        border-bottom: 8px solid $accent-color;
+    }   
 }
 
 
 /* Responsivness*/
 
 @media (max-width: 767px) {
+    .landingpage {
+        grid-template-columns: 1fr;
+    }
+
     .landingpage h1,
     .kmom-box,
     .kmom-box.project {

@@ -1,11 +1,24 @@
 @import 'typography'; // fontawsome, normalize, chosen fonts
-@import 'variables-light'; // coloring for light-colored version of the page
+@import 'variables-dark'; // coloring for dark mode
 
 // own imports, my own files
 @import '../../shared/scss/base';
 @import 'nav';
 @import 'report';
 @import 'responsive-small';
+
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+}
 
 html {
     background-color: $html-color;
@@ -16,13 +29,17 @@ body {
     background-color: $body-color;
 
     a {
-        text-decoration: underline;
         color: $font-color;
+        text-decoration: underline;
     }
 
     a:hover {
         background-color: $accent-color;
     }
+}
+
+.representing-me {
+    filter: grayscale(70%);
 }
 
 /* Header */
@@ -33,6 +50,10 @@ body {
     a,
     a:visited {
         color: $font-color;
+    }
+
+    a:hover {
+        color: $body-color;
     }
 }
 
@@ -49,10 +70,10 @@ body {
 
 .site-footer {
     background: $footer-color;
-    color: $body-color;
+    color: $footer-text;
 
     a {
-        color: $body-color;
+        color: $footer-text;
     }
 
     a:hover {
