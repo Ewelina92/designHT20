@@ -50,10 +50,6 @@ p {
     padding: 0 2em 2em;
 }
 
-img {
-    width: 30%;
-    margin-top: 1em;
-}
 
 ul {
     margin-left: 1.2em;
@@ -81,18 +77,4 @@ ul {
         text-decoration: none;
         padding: 0 0.25em;
     }
-}
-
-/* Alert note - not for myTheme*/
-
-.auto {
-    margin: auto;
-    text-align: center;
-}
-
-.alert {
-    background-color: $base-color;
-    border: 1px solid $border-dark;
-    height: $alert-box-size/2;
-    width: $alert-box-size;
 }

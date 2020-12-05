@@ -1,10 +1,11 @@
-@import 'typography'; // fontawsome, normalize, chosen fonts
 @import 'variables-dark'; // coloring for dark mode
+@import 'typography'; // fontawsome, normalize, chosen fonts
 
 // own imports, my own files
 @import '../../shared/scss/base';
 @import 'nav';
 @import 'report';
+@import 'gallery';
 @import 'responsive-small';
 
 * {
@@ -40,6 +41,8 @@ body {
 
 .representing-me {
     filter: grayscale(70%);
+    width: 30%;
+    margin-top: 1em;
 }
 
 /* Header */

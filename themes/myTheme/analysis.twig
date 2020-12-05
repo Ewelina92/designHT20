@@ -19,9 +19,9 @@
 
     <!-- <link rel="stylesheet" href="{{ theme_url }}/css/style.css" type="text/css" /> -->
     {% if config.session.theme == "dark" %}
-    <link rel="stylesheet" href="{{ theme_url }}/css/style-dark.css" type="text/css" />
+    <link rel="stylesheet" href="{{ theme_url }}/css/style-dark.min.css" type="text/css" />
     {% else %}
-    <link rel="stylesheet" href="{{ theme_url }}/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="{{ theme_url }}/css/style.min.css" type="text/css" />
     {% endif %}
 
 </head>
@@ -57,9 +57,9 @@
     <div class="main" role="main">
         <div class="kmoms">
             <div class="sidebar-links">
-                <a href="analysis1"><h2>Analysis 1</h2></a>
-                <a href="analysis2"><h2>Analysis 2</h2></a>
-                <a href="analysis3"><h2>Analysis 3</h2></a>
+                {% for analysis in pages("analysis") %}
+                    <a href="{{analysis.url}}"><h2>{{analysis.title}}</h2></a>
+                {% endfor %}
             </div>
             <div class="kmom-text">
                 {{ content }}

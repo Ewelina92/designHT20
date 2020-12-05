@@ -1,10 +1,11 @@
-@import 'typography'; // fontawsome, normalize, chosen fonts
 @import 'variables-light'; // coloring for light-colored version of the page
+@import 'typography'; // fontawsome, normalize, chosen fonts
 
 // own imports, my own files
 @import '../../shared/scss/base';
 @import 'nav';
 @import 'report';
+@import 'gallery';
 @import 'responsive-small';
 
 html {
@@ -23,6 +24,11 @@ body {
     a:hover {
         background-color: $accent-color;
     }
+}
+
+.representing-me {
+    width: 30%;
+    margin-top: 1em;
 }
 
 /* Header */
