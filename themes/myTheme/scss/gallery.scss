@@ -28,6 +28,23 @@ embed {
     height: 100%;
 }
 
+.gallery-image a:hover {
+    background-color: $body-color;
+}
+
+/* Zoom In, modified code from CodePen */
+
+.gallery-image picture img {
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+
+.gallery-image picture:hover img {
+    z-index: 5;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
 @media (max-width: 992px) {
     .gallery {
         grid-template-columns: repeat(2, 1fr);

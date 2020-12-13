@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/* Coloring of the page */
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -6463,6 +6464,7 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
   src: local("Montserrat Regular"), local("Montserrat-Regular"), url("../fonts/montserrat-v15-latin-regular.woff2") format("woff2"), url("../fonts/montserrat-v15-latin-regular.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  font-display: swap;
 }
 /* raleway-regular - latin */
 @font-face {
@@ -6471,6 +6473,7 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
   src: local(""), url("../fonts/raleway-v18-latin-regular.woff2") format("woff2"), url("../fonts/raleway-v18-latin-regular.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  font-display: swap;
 }
 * {
   font-family: "Raleway", sans-serif;
@@ -6483,9 +6486,9 @@ h4,
 h5,
 h6 {
   font-family: "Montserrat", sans-serif;
+  margin-bottom: 1em;
 }
 
-/* Coloring of the page */
 /* Typography variables */
 /* Alert box - not used in myTheme */
 * {
@@ -6560,19 +6563,6 @@ ul li {
   padding: 0 0.25em;
 }
 
-/* Alert note - not for myTheme*/
-.auto {
-  margin: auto;
-  text-align: center;
-}
-
-.alert {
-  background-color: #c6538c;
-  border: 1px solid rgba(198, 83, 140, 0.88);
-  height: 35%;
-  width: 70%;
-}
-
 .hidden {
   display: none !important;
 }
@@ -6640,6 +6630,9 @@ ul li {
 .kmom-box a {
   color: #191919;
 }
+.kmom-box a:hover {
+  background-color: #fafafa;
+}
 
 .kmom-box h2 {
   background-color: #f79963;
@@ -6667,8 +6660,11 @@ ul li {
   padding: 3em 2em 0 1em;
 }
 .sidebar-links a {
-  margin-bottom: 1.3em;
+  margin-bottom: 1.8em;
   white-space: nowrap;
+}
+.sidebar-links a h2 {
+  margin-bottom: 0;
 }
 
 .kmom-text h1 {
@@ -6699,7 +6695,8 @@ ul li {
   padding: 1em;
 }
 
-img, embed {
+img,
+embed {
   max-width: 100%;
 }
 
@@ -6719,6 +6716,22 @@ img, embed {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.gallery-image a:hover {
+  background-color: #fafafa;
+}
+
+/* Zoom In, modified code from CodePen */
+.gallery-image picture img {
+  transform: scale(1);
+  transition: 0.3s ease-in-out;
+}
+
+.gallery-image picture:hover img {
+  z-index: 5;
+  transform: scale(1.1);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
 }
 
 @media (max-width: 992px) {
@@ -6792,7 +6805,7 @@ body a:hover {
 }
 
 .representing-me {
-  width: 30%;
+  width: 50%;
   margin-top: 1em;
 }
 
@@ -6822,4 +6835,10 @@ body a:hover {
 .site-footer a:hover {
   background-color: #2c2c2c;
   color: #f79963;
+}
+
+@media (max-width: 767px) {
+  .representing-me {
+    width: 100%;
+  }
 }

@@ -19,6 +19,10 @@
     a {
         color: $box-link;
     }
+
+    a:hover {
+        background-color: $body-color;
+    }
 }
 
 .kmom-box h2 {
@@ -48,8 +52,12 @@
     padding: 3em 2em 0 1em;
 
     a {
-        margin-bottom: 1.3em;
+        margin-bottom: $magic-number;
         white-space: nowrap;
+    }
+
+    a h2 {
+        margin-bottom: 0;
     }
 }
 

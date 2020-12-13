@@ -41,7 +41,7 @@ body {
 
 .representing-me {
     filter: grayscale(70%);
-    width: 30%;
+    width: 50%;
     margin-top: 1em;
 }
 
@@ -82,5 +82,11 @@ body {
     a:hover {
         background-color: $footer-color;
         color: $accent-color;
+    }
+}
+
+@media (max-width: 767px) {
+    .representing-me {
+        width: 100%;
     }
 }
