@@ -106,9 +106,6 @@ As seen above, Europcar have a consistent use of the same font ont their page, w
 
 Their website is mostly using the three colors from their logo, where white dominates the page even though green is their most prominent logo color. Green seems to be mostly used for some choice-buttons and guidance, and yellow is highlighting their action buttons. Their color palette seems to come entirely from their logo, although green and yellow could be used in an analogous colorscheme, these shades differ and they are far from each other in the color wheel, and there doesn't seem to be a clear accent color either. Even though they do use a red color to accent their discounts, it seems to play a minor role. Their above the fold gives you many choices for booking while asking you for details like age and what type of car you'd like right from the beginning which could potentially save you clicks further throughout the booking-process. It looks like they instantly want you to know that they have a car for you. When you start scrolling they highlight their different offers and discounts and also offer other articles to read. Unfortunately, I think their website is a bit messy (their above the fold less so), my eyes dart around it and I'm not very inclined to make a booking especially after scrolling down since there's a bit too much that draws attention.
 
-
-Dokumentera dina resultat från din studie. Berätta vad du kom fram till, vilka resultat du hittade och observerade.
-
 Analysis
 -----------------------
 

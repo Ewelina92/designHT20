@@ -62,6 +62,8 @@
 }
 
 .kmom-text {
+    overflow: auto;
+    
     h1 {
         display: inline-block;
         border-bottom: 8px solid $accent-color;

@@ -34,7 +34,7 @@ Result
 -----------------------
 All data is avaible at https://docs.google.com/spreadsheets/d/1ZbIIcGJDxvr4C_A29_3kibigt4cGHYdD5-cc_ZAH36M/edit?pli=1#gid=0.
 
-From the generated reports, I could see that possible improvementpoints were for example:
+From the generated reports, I could see that possible improvement points were for example:
 
 For Hertz:
 * removing unsused JavaScript and improving it to reduce the execution time

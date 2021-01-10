@@ -35,11 +35,11 @@ Report
 </div>
 
 <div class="kmom-box">
-    <a href="#"><h2>Kmom06</h2></a>
-    <p>Something about kmom...</p>
+    <a href="report/kmom06"><h2>Kmom06</h2></a>
+    <p>Accessability and design principles</p>
 </div>
 
 <div class="kmom-box project">
-    <a href="#"><h2>Kmom10 / Project</h2></a>
-    <p>Something about kmom...</p>
+    <a href="report/project"><h2>Kmom10 / Project</h2></a>
+    <p>Reflections regarding the project</p>
 </div>

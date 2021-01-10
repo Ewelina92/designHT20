@@ -16,5 +16,5 @@ Usually when working with pictures, I make use of some simple photo handling pro
 After this week, I feel like my understanding of choosing the right sizes of images have increased. Not only does it affect the time it takes to load a website, it also affects the layout and the feeling I get when I visit a site. I like that the images fit nicely no matter the screen size, and that I don’t have to wait ages for them to load. Nowadays I suppose it’s getting more and more common to have unlimited data on portable devices, but for those who don’t, it makes a lot of difference on how much browsing they can do, if the site is optimized for taking up as little data as possible.
 
 <div class="embed-container">
-    <iframe src="https://www.youtube.com/embed/L_jWHffIx5E" frameborder="0" allowfullscreen></iframe>
+    <iframe title="All Star by Smash Mouth" src="https://www.youtube.com/embed/L_jWHffIx5E" frameborder="0" allowfullscreen></iframe>
 </div>
